@@ -326,3 +326,15 @@ input[type="button"]:focus {
   background: yellow;
   height: 160px;
   font-size: 20px; }
+
+.form-wrap {
+  font-size: 20px;
+  max-width: 980px;
+  margin: 25px auto; }
+
+.form-wrap form {
+  color: #333;
+  text-align: center; }
+
+.form-wrap form label {
+  margin-top: 10px; }
