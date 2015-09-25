@@ -8,8 +8,53 @@
   </head>
   <body>
     <div class="nav"></div>
-    <div class="register-wrap"></div>
-    <div class="login-wrap"></div>
+
+      <div class="home-wrap">
+      <div class="register-wrap">
+        <h3>Register as a Conductor</h3>
+
+        <form action="" name="conducter-register">
+          <label for="userid">User Id <br/>
+            <input name="userid" required />
+          </label> 
+
+          <label for="firstname">First Name <br/>
+          <input type="text" name="firstname" required />
+          </label> 
+
+          <label for="lastname">Last Name <br/>
+          <input type="text" name="lastname" required />
+          </label> 
+
+          <label for="password">Password <br/>
+          <input type="password" name="password" required />
+          </label> 
+
+          <label for="password">Re-enter Password <br/>
+          <input type="password" name="password" required />
+          </label> 
+
+          <input type="submit" value="Register" />
+        </form>
+      </div>
+
+      <div class="login-wrap">
+        <h3>Login</h3>
+
+        <form action="" name="conductor-login">
+          <label for="userid">User Id <br/>
+          <input type="text" name="userid" required />
+          </label>
+
+          <label for="password">Password <br/>
+          <input type="password" name="password" required />
+          </label>
+
+          <input type="submit" value="Login"/>
+        </form>
+      </div>
+
+    </div>
 
   <script src="/assets/js/jquery-2.1.4.min.js"></script>
   <script src="/assets/js/functions.js" type="text/javascript"></script>
