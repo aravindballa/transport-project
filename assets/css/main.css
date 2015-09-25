@@ -322,10 +322,9 @@ input[type="button"]:focus {
   border-color: #888;
   outline: 0; }
 
-.home-wrap {
-  background: yellow;
-  height: 160px;
-  font-size: 20px; }
+.nav {
+  height: 50px;
+  background: brown; }
 
 .form-wrap {
   font-size: 20px;
@@ -338,3 +337,6 @@ input[type="button"]:focus {
 
 .form-wrap form label {
   margin-top: 10px; }
+
+.form-wrap form ul {
+  font-size: 10px; }
