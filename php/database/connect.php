@@ -1,12 +1,16 @@
 <?php
+error_reporting(0);
+
 $user = 'root';
 $pass = '';
 $url = 'localhost';
 $db_name = 'transport';
 
-$connect_err = 'Sorry, We\'re experiencing trouble.'; 
-
-mysql_connect($url, $user, $pass) or die($connect_err);
-mysql_select_db($db_name) or die($connect_err);
+// Create connection
+$conn = mysqli_connect($url, $user, $pass, $db_name);
+// Check connection
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
 
 ?>

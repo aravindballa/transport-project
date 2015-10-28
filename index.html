@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
   </head>
   <body>
     <div class="nav"></div>
@@ -13,7 +13,7 @@
       <div class="register-wrap">
         <h3>Register as a Conductor</h3>
 
-        <form action="" name="conducter-register">
+        <form action="php/functions/conductors-reg.php" name="conducter-register" method="post">
           <label for="userid">User Id <br/>
             <input name="userid" required />
           </label> 
@@ -30,8 +30,8 @@
           <input type="password" name="password" required />
           </label> 
 
-          <label for="password">Re-enter Password <br/>
-          <input type="password" name="password" required />
+          <label for="passwordre">Re-enter Password <br/>
+          <input type="password" name="passwordre" required />
           </label> 
 
           <input type="submit" value="Register" />
@@ -39,9 +39,10 @@
       </div>
 
       <div class="login-wrap">
+
         <h3>Login</h3>
 
-        <form action="" name="conductor-login">
+        <form action="php/functions/conductors-log.php" name="conductor-login" method="post">
           <label for="userid">User Id <br/>
           <input type="text" name="userid" required />
           </label>
@@ -52,6 +53,8 @@
 
           <input type="submit" value="Login"/>
         </form>
+
+        <br><p class="for-admin"><a href="admin-login.html">Are you an Adminstrator?</a></p>
       </div>
 
     </div>

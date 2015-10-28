@@ -194,11 +194,13 @@ optgroup {
 
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+
+  }
 
 td,
 th {
-  padding: 0; }
+  padding: 2px 4px; }
 
 body {
   background-color: white;
@@ -355,25 +357,22 @@ input {
   border-radius: 5px;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
   padding: 6px;
-  margin-top: 6px;
-  width: 90%; }
+  margin-top: 6px; }
 
 label {
   display: block;
   font-weight: bold;
   margin-bottom: 20px; }
 
-.form-wrap {
-  font-size: 20px;
-  max-width: 980px;
-  margin: 25px auto; }
-
-.form-wrap form {
-  color: #333;
+.reg-traveller {
   text-align: center; }
 
-.form-wrap form label {
-  margin-top: 10px; }
 
-.form-wrap form ul {
-  font-size: 10px; }
+.entry-table {
+  margin: 0 auto;
+}
+
+.butt-new {
+  text-align: center;
+  margin-top: 10px;
+}

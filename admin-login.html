@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Login as Admin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <div class="nav"></div>
+  	<br><br>
+  	<form action="php/functions/admin-log.php" name="admin-login" method="post">
+		<label for="admin">Username<br/>
+		<input type="text" name="admin" required />
+		</label>
+
+		<label for="password">Password <br/>
+		<input type="password" name="password" required />
+		</label>
+
+		<input type="submit" value="Login"/>
+    </form>
+  </body>
+
+</html>
