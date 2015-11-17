@@ -7,4 +7,4 @@ conductor.
 - A PHP server as there are connections with database. I used XAMPP server with MySQL database. The database must contain the tables and feilds mentioned in the php files.
 - Web Cam is required as it has to scan the qr code.
 
-The scanner and the generator used were made using [QR Code api](http://goqr.me/api). Huge shoot-out for that!
+The scanner and the generator used in this project were made using [QR Code api](http://goqr.me/api). Huge shoot-out for that!
